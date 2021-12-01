@@ -1,0 +1,35 @@
+.brand-name{
+    
+    background: linear-gradient(to left, #f32170,
+    #ff6b08);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+
+
+  
+  #header{
+color: #fff;
+background-color: #142f43;
+  }
+
+
+  
+@media (min-width: 200px) and  (max-width: 991px) {
+
+ .custom_img{
+   
+ }
+}
+
+@media (max-width : 768px){
+  .custom_img{
+    justify-content: center;
+    margin-left: 25%;;
+  }
+}
+
+
+
+
