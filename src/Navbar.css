@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@500&display=swap');
+
+
+.navbar{
+    font-family: 'Montserrat';
+    
+   
+}
+
+.nav-link{
+    font-size: 17px;
+   
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid;
+    transition: all 0.1s ease;
+    border-image: linear-gradient(to right, #FFCA03, #FF5403);
+  border-image-slice: 1;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.navbar-toggler{
+transition: all 0.3s ease-in;
+outline: none;
+}
+
+@media (min-width: 200px) and  (max-width: 991px) {
+
+
+
+
+
+}
+
+.navbar-nav{
+
+    animation: fadeDropdown 0.3s;
+    text-align: center;
+
+}
+
+@keyframes fadeDropdown {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+	}
+}

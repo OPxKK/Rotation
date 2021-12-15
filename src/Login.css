@@ -1,0 +1,35 @@
+#login{
+  background-color: #142f42;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+
+@media (min-width: 200px) and  (max-width: 991px) {
+
+  .custom_div{
+    
+    width: 382px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+#login .lead{
+  padding-top: 5%;
+}
+
+#login .d-flex{
+  padding-top: 5%;;
+}
+
+}
+
+@media (min-width: 768px){
+  .login_image{
+    margin-left: 10%;
+  }
+}

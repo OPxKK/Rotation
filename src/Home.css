@@ -1,0 +1,91 @@
+.brand-name{
+    
+    background: linear-gradient(to left, #f32170,
+    #ff6b08);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+
+
+  
+  #header{
+color: #fff;
+background-color: #142f43;
+  }
+
+  #header h3{
+    font-family: 'Montserrat';
+  }
+
+  #header h4{
+    
+    font-size: 1.4rem;
+    
+  }
+
+
+
+#features h1{
+  font-family: 'Montserrat';
+  font-weight: bolder;
+}
+
+#features h2{
+  font-family: 'Montserrat';
+  
+}
+
+#features p{
+  
+
+}
+  
+
+
+@media (min-width: 200px) and  (max-width: 991px) {
+ .custom_div{
+    
+    width: 382px;
+    height: 135px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin-bottom: 10%;;
+    
+}
+}
+
+@media (max-width : 768px){
+
+}
+
+
+
+
+.heading-name{
+    
+  background: linear-gradient(to left , #FF0000, #F78812,
+  #FFF323);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+
+
+.blue-heading-name{
+    
+  
+  background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+
+.heading-name-2 {
+  background: linear-gradient(to left, #aaa, #fff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+

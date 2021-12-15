@@ -1,0 +1,33 @@
+#payment h1{
+    font-family: 'Montserrat';
+}
+
+#payment h1{
+    font-weight: bold;
+}
+  
+@media (min-width: 200px) and  (max-width: 991px) {
+
+#payment{
+
+text-align: center;
+  
+    
+}
+
+#payment form{
+    justify-content: center;
+}
+
+#payment .custom_div{
+    
+    width: 382px;
+    height: 135px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    
+}
+
+}
